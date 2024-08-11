@@ -14,7 +14,7 @@ export default function Login() {
                 <ModeToggle />
             </nav>
             <aside className="max-h-screen w-1/2 hidden lg:block">
-                <Image src="/login.png" alt="login-image" width="585" height="832" />
+                <Image src="/login.png" alt="login-image" width="585" height="832" className="h-screen"/>
             </aside>
             <section className="flex flex-col m-auto items-center justify-center gap-7">
                 <Link href="/">
